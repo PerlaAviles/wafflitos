@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wafflitos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="waffle.png" alt="Logo de Wafflitos"> <!-- Reemplaza "logo.png" con la ruta de tu logotipo -->
+        <h1>Wafflitos</h1>
+    </header>
+    <div id="notification"></div>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a>
+
+    </nav>
+    
+
+<div class="hero">
+    <div class="slider">
+       
+        <div>
+            <video autoplay loop muted playsinline>
+                <source src="Wafflitos.mp4" type="video/mp4">
+        </div>
+    </div>
+    <h2>Delicias que te hacen sonreír</h2>
+</div>
+
+<div id="productos" class="section">
+    <h3>Nuestros Productos</h3>
+    <div class="products-grid">
+        <div class="product" data-name="Waffleberry" data-price="10">
+            <img src="wfb.jpg" alt="Waffleberry">
+            <h4>Waffleberry</h4>
+            <p>Un delicioso waffle crujiente coronado con fresas frescas, crema batida y un toque de miel. ¡Pura dulzura irresistible!</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <div class="product" data-name="Tropical Bliss Waffle" data-price="12">
+            <img src="waffle_yellow.jpg" alt="Tropical Bliss Waffle">
+            <h4>Tropical Bliss Waffle</h4>
+            <p>Un waffle dorado cubierto con plátano, mango fresco y un toque de miel. ¡Un viaje tropical en cada bocado!</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <div class="product" data-name="Frosty Berry Choco-Waffle" data-price="12">
+            <img src="waffle_fresa.jpg" alt="Frosty Berry Choco-Waffle">
+            <h4>Frosty Berry Choco-Waffle</h4>
+            <p>Un waffle con fresas frescas, bañado en chocolate, coronado con una generosa bola de nieve. ¡Un placer refrescante y decadente!</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div> 
+        <div class="product" data-name="Maple Nut Ice Waffle" data-price="12">
+            <img src="waffle_cam.jpg" alt="Maple Nut Ice Waffle">
+            <h4>Maple Nut Ice Waffle</h4>
+            <p>Un crujiente waffle con nueces, servido con helado y jarabe de maple, una delicia fresca y reconfortante.</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <div class="product" data-name="Frutal Whipped Waffle" data-price="12">
+            <img src="waffle_mix.jpg" alt="Frutal Whipped Waffle">
+            <h4>Frutal Whipped Waffle</h4>
+            <p>Un suculento waffle con una variedad de frutas frescas, crema batida esponjosa y un toque de azúcar glass. ¡Deliciosamente refrescante!</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <div class="product" data-name="Sprinkle Waffle" data-price="12">
+            <img src="WS.jpg" alt="Sprinkle Waffle">
+            <h4>Sprinkle Waffle</h4>
+            <p>Un tentador waffle con chispas de chocolate y coloridas, coronado con abundante jarabe. ¡Una explosión de sabor y diversión!</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <!-- Agrega más productos aquí -->
+    </div>
+</div>
+
+<div id="promociones" class="section">
+    <h3>Promociones</h3>
+    <div class="container">
+        <div class="promotion">
+            <img class="promotion-image" src="promo1.jpg" alt="Promoción 1">
+        </div>
+        <div class="promotion">
+            <img class="promotion-image" src="promo2.png" alt="Promoción 2">
+        </div>
+        <div class="promotion">
+            <img class="promotion-image" src="promo3.png" alt="Promoción 3">
+        </div>
+       
+    </div>
+</div>
+
+
+<div id="nosotros" class="section">
+    <h3>Sobre Nosotros</h3>
+    <div class="container">
+        <div class="mission">
+            <h2>Misión</h2>
+            <img  class="small-image" src="MISION.png" alt="Imagen de Misión">
+            <p>Proporcionar una experiencia dulce y memorable a nuestros clientes con productos de alta calidad y un servicio excepcional.</p>
+        </div>
+        <div class="vision">
+            <h2>Visión</h2>
+            <img  class="small-image" src="VISION.png" alt="Imagen de Visión">
+            <p>Ser la marca líder en el mercado de waffles, conocida por nuestra innovación, sabor y compromiso con la satisfacción del cliente.</p>
+        </div>
+        <div class="values">
+            <h2>Valores</h2>
+            <img  class="small-image" src="VALORES.png" alt="Imagen de Valores">
+            <ul>
+                <li>Calidad</li>
+                <li>Innovación</li>
+                <li>Servicio al Cliente</li>
+                <li>Sostenibilidad</li>
+                <li>Comunidad</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="video-container">
+    <h3>Mira nuestro video</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5PpS2IG-Io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div id="contacto" class="section">
+    <h3>Contacto</h3>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="redes-sociales">
+                <h4>Síguenos en redes sociales</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61555562964653"><img src="flogo.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/wafflitos_tec/"><img src="ilogo.png" alt="Instagram"></a></li>
+                    <li><a href="https://wa.me/7721057611"><img src="Wl.png" alt="whatsapp"></a></li>
+                </ul>
+            </div>
+            <div class="correo-electronico">
+                <h4>Regístrate para recibir nuestras noticias</h4>
+                <form action="#" method="POST">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <p>&copy; 2024 Wafflitos. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
